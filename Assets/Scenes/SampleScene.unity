@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &179602988
 Rigidbody2D:
   serializedVersion: 4
@@ -250,7 +250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179602987}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.5696745, y: 0.035368383, z: 0.042442262}
+  m_LocalPosition: {x: 9.96, y: 0.035368383, z: 0.042442262}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -361,7 +361,7 @@ Transform:
   - {fileID: 1506303659}
   - {fileID: 1824543780}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -483,7 +483,7 @@ Transform:
   - {fileID: 2084947485}
   - {fileID: 1047546792}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &804399405
 GameObject:
@@ -511,7 +511,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804399405}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28180283, y: -0.63218224, z: -0.0086740265}
+  m_LocalPosition: {x: -0.24, y: -0.63218224, z: -0.0086740265}
   m_LocalScale: {x: 0.2, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 1047546794}
   - component: {fileID: 1047546793}
   m_Layer: 3
-  m_Name: player2Block (1)
+  m_Name: player2GoalBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,7 +622,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047546791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.55, y: -0.63218224, z: -0.0086740265}
+  m_LocalPosition: {x: 9.94, y: -0.63218224, z: -0.0086740265}
   m_LocalScale: {x: 0.2, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -923,7 +923,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484194426}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.4303255, y: 0.035368383, z: 0.042442262}
+  m_LocalPosition: {x: -10.69, y: 0.035368383, z: 0.042442262}
   m_LocalScale: {x: 1, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -970,15 +970,15 @@ RectTransform:
   m_GameObject: {fileID: 1489365326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.6373415, y: 8.6373415, z: 8.6373415}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1851117444}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 137.8, y: -63.3}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 214, y: -2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489365328
@@ -1010,8 +1010,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 1358954495
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.3137255}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1183,7 +1183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506303656}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.5696745, y: 0.035368383, z: 0.042442262}
+  m_LocalPosition: {x: 11.84, y: 0.035368383, z: 0.042442262}
   m_LocalScale: {x: 1, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1281,7 +1281,7 @@ Transform:
   m_GameObject: {fileID: 1578412659}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.78180283, y: -0.63218224, z: -0.0086740265}
-  m_LocalScale: {x: 0.25, y: 15, z: 1}
+  m_LocalScale: {x: 0.15, y: 16.125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 651570770}
@@ -1391,8 +1391,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672477088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.78180283, y: -5.632182, z: -0.0086740265}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalPosition: {x: -0.78180283, y: -5.966, z: -0.0086740265}
+  m_LocalScale: {x: 33.45996, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 651570770}
@@ -1417,7 +1417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1824543780
 Transform:
   m_ObjectHideFlags: 0
@@ -1426,7 +1426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824543779}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.5696745, y: 0.035368383, z: 0.042442262}
+  m_LocalPosition: {x: 9.94, y: 0.035368383, z: 0.042442262}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1544,11 +1544,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 571c349b21b85d8489c7c5be17c63718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   rb: {fileID: 1824543782}
   startPosition: {x: 0, y: 0, z: 0}
-  topBound: 3.65
-  bottomBound: -3.65
+  speed: 6
 --- !u!1 &1845129212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,7 +1674,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845129212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.430325, y: 0.035368383, z: 0.042442262}
+  m_LocalPosition: {x: -8.87, y: 0.035368383, z: 0.042442262}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1712,7 +1710,7 @@ GameObject:
   - component: {fileID: 1851117442}
   - component: {fileID: 1851117441}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: ScoreCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1949,7 +1947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c7dfbb203ce30f44a55c290b2433d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 5
   rb: {fileID: 1904535835}
   startPosition: {x: 0, y: 0, z: 0}
   BallDirection: {x: 0, y: 0}
@@ -2069,8 +2067,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985757825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.78180283, y: 4.367818, z: -0.0086740265}
-  m_LocalScale: {x: 30, y: 1, z: 1}
+  m_LocalPosition: {x: -0.78180283, y: 4.702, z: -0.0086740265}
+  m_LocalScale: {x: 33.45996, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 651570770}
@@ -2219,7 +2217,7 @@ GameObject:
   - component: {fileID: 2084947487}
   - component: {fileID: 2084947486}
   m_Layer: 3
-  m_Name: player1Block (1)
+  m_Name: player1GoalBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2233,7 +2231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084947484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.05, y: -0.63218224, z: -0.0086740265}
+  m_LocalPosition: {x: -11.49, y: -0.63218224, z: -0.0086740265}
   m_LocalScale: {x: 0.2, y: 15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2413,15 +2411,15 @@ RectTransform:
   m_GameObject: {fileID: 2144855912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8.538409, y: 8.538409, z: 8.538409}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1851117444}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -160.6, y: -63.3}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -189, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144855914
@@ -2453,8 +2451,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 1358954495
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.3137255}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

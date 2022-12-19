@@ -45,5 +45,6 @@ public class GameManager : MonoBehaviour
         ball.GetComponent<Ball>().Reset();
         player1Paddle.GetComponent<Paddle>().Reset();
         player2Paddle.GetComponent<Paddle>().Reset();
+        ComputerPaddle.GetComponent<Computer>().Reset();
     }
 }
