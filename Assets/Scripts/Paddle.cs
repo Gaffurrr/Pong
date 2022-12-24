@@ -8,6 +8,7 @@ public class Paddle : MonoBehaviour
     public float speed;
     public Rigidbody2D rb;
     public Vector3 startPosition;
+    public GameManager Gm;
 
     private float movement;
     void Start()
@@ -35,7 +36,11 @@ public class Paddle : MonoBehaviour
             {
                 movement = Input.GetAxisRaw("Horizontal2");
             }
-            rb.velocity = new Vector2(movement * speed, rb.velocity.y); 
+            rb.velocity = new Vector2(movement * speed, rb.velocity.y);
+            if (Input.GetKey(KeyCode.P))
+            {
+                Gm.PauseGame();
+            }
     }
     public void Reset()
     {
